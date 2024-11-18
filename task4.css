@@ -1,0 +1,50 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#clickme button
+{
+    border: none;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#content
+{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    margin-left: 500px;
+    margin-top: 30px;
+    position: relative;
+    visibility: hidden;
+    border-radius: 20px;
+}
+#content p
+{
+    text-align: center;
+    padding-top: 90px;
+}
+#cross
+{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    margin-top: 10px;
+
+}
+#cross span
+{
+    font-size: 30px;
+    padding-left: 5px;
+}

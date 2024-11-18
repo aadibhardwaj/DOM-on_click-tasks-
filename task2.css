@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main
+{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+#main h1
+{
+    text-align: center;
+}
+#para
+{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    visibility: hidden;
+}
+#para p
+{
+    padding: 10px;
+}
+#main button
+{
+    border: none;
+    background-color: aqua;
+    font-size: x-large;
+}
